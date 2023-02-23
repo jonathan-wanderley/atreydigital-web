@@ -55,7 +55,27 @@ function App() {
 
       <section className='about-box'>
         
-        
+      <img src="about.jpg" alt="" />
+        <div>
+          <div className='about-main-text'>
+            <h3>Sobre nós</h3>
+            <p>A Atrey Digital é uma empresa que, tem como principal objetivo, facilitar a criação de
+              marcas para influenciadores digitais. Nossa base de crescimento é o marketing de
+              influência, cremos que entre influenciadores e seu público, pode existir, acima de tudo,
+              uma história de relações humanas, confiança, admiração e principalmente identificação.</p>
+          </div>
+
+          <div className='about-alt-texts'>
+            <div>
+              <h4>O que acreditamos?</h4>
+              <p>Nós acreditamos que marcas imbatíveis são alimentadas pelo poder da influência de seus fundadores!</p>  
+            </div>
+            <div>
+              <h4>Trabalho em equipe</h4>
+              <p>Nós prezamos pelo trabalho em equipe, entendemos que as vezes sozinhos podemos ir rápido, mas sem sombra de dúvidas, em equipe conseguimos chegar mais longe!</p>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   )
