@@ -1,4 +1,6 @@
 import './App.css'
+import { HiMail } from "react-icons/hi";
+import { RiWhatsappFill } from "react-icons/ri";
 
 function App() {
   return (
@@ -11,7 +13,6 @@ function App() {
 
           <nav>
             <ul>
-              <li>Como funciona?</li>
               <li>Sobre nós</li>
               <li>Contato</li>
               </ul>
@@ -55,7 +56,7 @@ function App() {
 
       <section className='about-box'>
         
-      <img src="about.jpg" alt="" />
+        <img src="about.jpg" alt="" />
         <div>
           <div className='about-main-text'>
             <h3>Sobre nós</h3>
@@ -77,6 +78,31 @@ function App() {
           </div>
         </div>
       </section>
+
+      <footer>
+        <div className='footer-img'>
+
+        </div>
+
+        <div>
+          
+
+          <div className='footer'>
+            <div className="footer-bar"></div>
+
+            <div className='footer-title'>Contato</div>
+            <nav>
+              <ul>
+                <li> <HiMail size={'1.4em'} color='#C6C9D8' /> <a href="mailto:contato@atrey.com.br" >contato@atrey.com.br</a></li>
+                <li> <RiWhatsappFill size={'1.4em'} color='#C6C9D8' /> <a href="https://www.google.com.br" target={'_blank'}>Nosso whatsapp!</a></li>
+              </ul>
+            </nav>
+            <div className='copyright'>
+              Copyright © 2023 - Atrey Digital
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }
