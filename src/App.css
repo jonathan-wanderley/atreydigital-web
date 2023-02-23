@@ -272,3 +272,124 @@ footer > div {
 .logo img{
     width: 160px;
 }
+
+@media screen and (max-width: 1024px) {
+    .about-box img {
+        width: 360px;
+        height: 100%;
+        margin-top: 23px
+    }
+}
+
+@media screen and (max-width: 962px) {
+    main .text h1 {
+        margin-top: 0px;
+        font-size: 60px;
+    }
+
+    main .texts-box{
+        margin-top: 50px;
+    }
+
+    .texts-box p {
+        color: #757575;
+        font-size: 16px;
+    }
+
+    .texts-box h2 {
+        font-size: 20px;
+    }
+
+    .texts-box > div {
+        gap: 14px;
+    }
+
+    .about-box img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    header nav ul {
+        display: none;
+    }
+
+    main .text h1 {
+        font-size: 40px;
+    }
+
+    main .texts-box {
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 70px;
+    }
+
+    .footer {
+        padding: 160px 70px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .about-alt-texts {
+        flex-direction: column;
+    }
+
+    .about-alt-texts div h4 {
+        margin-bottom: 8px;
+    }
+
+    .footer-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 462px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    header nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header nav a {
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    main .text h1 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 402px) {
+    main {
+        padding: 0 30px 170px;
+    }
+    main .text h1 {
+        font-size: 50px;
+    }
+    .footer-bar {
+        display: none;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 20px;
+    }
+    footer nav ul li a {
+        font-size: 8px;
+    }
+    .copyright {
+        text-align: center;
+    }
+}
