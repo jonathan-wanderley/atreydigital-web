@@ -16,7 +16,7 @@ function App() {
               <li>Sobre nós</li>
               <li>Contato</li>
               </ul>
-              <a href="">
+              <a href="https://wa.me/5581973459498?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20parceria.">
                 Fazer parceria
               </a>
           </nav>
@@ -94,7 +94,7 @@ function App() {
             <nav>
               <ul>
                 <li> <HiMail size={'1.4em'} color='#C6C9D8' /> <a href="mailto:contato@atrey.com.br" >contato@atrey.com.br</a></li>
-                <li> <RiWhatsappFill size={'1.4em'} color='#C6C9D8' /> <a href="https://www.google.com.br" target={'_blank'}>Nosso whatsapp!</a></li>
+                <li> <RiWhatsappFill size={'1.4em'} color='#C6C9D8' /> <a href="https://www.google.com.br" target={'_blank'}>{ "(81) 9 7345-9498" }</a></li>
               </ul>
             </nav>
             <div className='copyright'>
