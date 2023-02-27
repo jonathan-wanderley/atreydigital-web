@@ -13,8 +13,8 @@ function App() {
 
           <nav>
             <ul>
-              <li>Sobre nós</li>
-              <li>Contato</li>
+              <li> <a href="#sobre">Sobre nós</a> </li>
+              <li> <a href="#contato">Contato</a> </li>
               </ul>
               <a href="https://wa.me/5581973459498?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20parceria.">
                 Fazer parceria
@@ -54,7 +54,7 @@ function App() {
         </div>
       </main>
 
-      <section className='about-box'>
+      <section className='about-box' id='sobre'>
         
         <img src="about.jpg" alt="" />
         <div>
@@ -79,7 +79,7 @@ function App() {
         </div>
       </section>
 
-      <footer>
+      <footer id='contato'>
         <div className='footer-img'>
 
         </div>
